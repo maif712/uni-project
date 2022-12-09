@@ -38,37 +38,37 @@ export default function Gallery() {
 
                 <div className="main-gallery">
                     <figure className="item4">
-                        <img src="../images/dell-Yu0e.jpg" alt="" />
+                        <img src="../uni-project/images/dell-Yu0e.jpg" alt="" />
                         <span>anita austvika</span>
                     </figure>
                     <figure className="item4">
-                        <img src="../images/lukasz-rawa.jpg" alt="" />
+                        <img src="../uni-project/images/lukasz-rawa.jpg" alt="" />
                         <span>roman malik</span>
                     </figure>
                     <figure className="item4">
-                        <img src="../images/nathan-watson.jpg" alt="" />
+                        <img src="../uni-project/images/nathan-watson.jpg" alt="" />
                         <span>vasilina sirotina</span>
                     </figure>
                     <figure className="item4">
-                        <img src="../images/tom-morbey.jpg" alt="" />
+                        <img src="../uni-project/images/tom-morbey.jpg" alt="" />
                         <span>steve johnson</span>
                     </figure>
                 </div>
                 <div className="main-gallery">
                     <figure className="item4">
-                        <img src="../images/anita-austvika.jpg" alt="" />
+                        <img src="../uni-project/images/anita-austvika.jpg" alt="" />
                         <span>anita austvika</span>
                     </figure>
                     <figure className="item4">
-                        <img src="../images/roman-malik.jpg" alt="" />
+                        <img src="../uni-project/images/roman-malik.jpg" alt="" />
                         <span>roman malik</span>
                     </figure>
                     <figure className="item4">
-                        <img src="../images/vasilina-sirotina.jpg" alt="" />
+                        <img src="../uni-project/images/vasilina-sirotina.jpg" alt="" />
                         <span>vasilina sirotina</span>
                     </figure>
                     <figure className="item4">
-                        <img src="../images/steve-johnson.jpg" alt="" />
+                        <img src="../uni-project/images/steve-johnson.jpg" alt="" />
                         <span>steve johnson</span>
                     </figure>
                 </div>

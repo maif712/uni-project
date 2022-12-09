@@ -8,21 +8,21 @@ export default function Shop() {
             <div className="produce-wrapper container">
                 <div className="produce-item">
                     <figure>
-                        <img src="../images/s22.webp" alt="" />
+                        <img src="../uni-project/images/s22.webp" alt="" />
                     </figure>
                     <p>galaxy S22</p>
                     <button className="btn-buy">Buy now</button>
                 </div>
                 <div className="produce-item">
                     <figure>
-                        <img src="../images/zflip.webp" alt="" />
+                        <img src="../uni-project/images/zflip.webp" alt="" />
                     </figure>
                     <p>galaxy Z flip4</p>
                     <button className="btn-buy">Buy now</button>
                 </div>
                 <div className="produce-item">
                     <figure>
-                        <img src="../images/zfold.webp" alt="" />
+                        <img src="../uni-project/images/zfold.webp" alt="" />
                     </figure>
                     <p>galaxy Z fold4</p>
                     <button className="btn-buy">Buy now</button>

@@ -18,7 +18,7 @@ export default function Main() {
                 </div>
                 <div className="main__right">
                     <div className="main__image">
-                        <img src="../images/ai.png" alt="" />
+                        <img src="../uni-project/images/ai.png" alt="" />
                     </div>
                 </div>
             </main>
