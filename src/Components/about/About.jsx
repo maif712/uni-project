@@ -9,7 +9,7 @@ export default function About() {
             <div className="about">
                 <div className="about__left">
                     <figure className="about__figure">
-                        <img src="../uni-project/images/person.jpg" alt="" className="about__img" />
+                        <img src="./images/person.jpg" alt="" className="about__img" />
                     </figure>
                 </div>
                 <div className="about__right">
