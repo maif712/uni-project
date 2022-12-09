@@ -8,7 +8,7 @@ export default function Shop() {
             <div className="produce-wrapper container">
                 <div className="produce-item">
                     <figure>
-                        <img src="../uni-project/images/s22.webp?raw=ture" alt="" />
+                        <img src="../uni-project/images/s22.webp" alt="" />
                     </figure>
                     <p>galaxy S22</p>
                     <button className="btn-buy">Buy now</button>
