@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/uni-project/static/css/main.ada1b2e9.css",
+    "main.js": "/uni-project/static/js/main.7c83cf66.js",
+    "static/media/green.webp": "/uni-project/static/media/green.cde95c3f80985c50e011.webp",
+    "index.html": "/uni-project/index.html",
+    "main.ada1b2e9.css.map": "/uni-project/static/css/main.ada1b2e9.css.map",
+    "main.7c83cf66.js.map": "/uni-project/static/js/main.7c83cf66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ada1b2e9.css",
+    "static/js/main.7c83cf66.js"
+  ]
+}
