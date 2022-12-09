@@ -1,0 +1,35 @@
+
+
+figure {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+}
+
+figure>img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    transition: .5s;
+}
+
+figure>span {
+    font-family: monospace;
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+figure:hover {
+    flex: 1 1 50%;
+}
+
+figure:hover>img {
+    width: 100%;
+    height: 100%;
+}

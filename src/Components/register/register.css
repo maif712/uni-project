@@ -1,0 +1,177 @@
+
+#register {
+    display: flex;
+    align-items: center;
+    background-color: #d9f8f0;
+    min-height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    height: 600px;
+    width: 50%;
+    box-shadow: 0 3px 11px 1px rgb(0 0 0 / 50%);
+}
+
+.main-div__left {
+    position: relative;
+    width: 100%;
+    background-image: url("../../../public/images/green.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-div__left h2 {
+    color: #36c4b4;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.main-div__left h1 {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+
+.main-div__left:after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 165px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #32425b;
+}
+
+.main-div__right {
+    background: #32425b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    padding: 2em;
+}
+
+.main-div__h2 {
+    color: #f5ffff;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.main-div__para {
+    color: #3da29e;
+    text-transform: uppercase;
+    font-family: system-ui;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid #5b6b84;
+    background: #32425b;
+    padding: 10px;
+    outline: none;
+    color: #e9f6ff;
+}
+
+.main-form_checkbox--warpper {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.main-form__para {
+    color: #a3b2c9;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.main-form__btn-submit {
+    margin-top: 2em;
+    border: none;
+    padding: 12px;
+    background: #1ed5b9;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: revert;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.main-form__btn-submit:hover {
+    background-color: #05b59a;
+}
+
+.main-form__checkbox {
+    appearance: none;
+    transition: 0.3s;
+    width: 1rem;
+    height: 1rem;
+    outline: 1px solid #5d6d86;
+    outline-offset: 1px;
+}
+
+
+.main-form__checkbox:checked {
+    background-color: #7697aa;
+}
+
+.input-wrapper {
+    position: relative;
+}
+.input-wrapper input:valid ~ span,
+.input-wrapper input:focus ~ span {
+    transform: translate(9px, -7px);
+    padding: 0 10px;
+    font-size: 0.95em;
+    background-color: #32425b;
+    border-left: 1px solid #5b6b84;
+    border-right: 1px solid #5b6b84;
+    color:#e9f6ff;
+}
+
+.input-wrapper span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    color: #5b6b84;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    pointer-events: none;
+}
